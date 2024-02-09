@@ -1,0 +1,101 @@
+body {
+    font-family: 'Source Code Pro', monospace;
+            margin: 0;
+    padding: 0;
+    background-color: #FFD700;
+    
+}
+
+
+.container {
+    color: #000000 ;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #FF69B4;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:hover {
+    background-color: #8B4513 ;
+    color: #ffffff;
+    font-weight: bold;
+
+} 
+
+.amarillo {
+    color: yellow;
+  }
+
+
+img{
+
+    display: block;
+    margin: auto;
+    width: 20%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+a:hover {
+    color: #ffffff; /* Puedes cambiar '#007bff' por el color deseado */
+}
+
+a:active {
+    color: #ffffff; /* Puedes cambiar '#0056b3' por el color deseado */
+}
+
+a:visited {
+    color: inherit; /* Puedes cambiar 'inherit' por el color que desees para los enlaces visitados */
+}
+
+.miBoton {
+    width: 30px;
+    height: 30px;
+    background-color: #B0C4DE;
+
+    border-radius: 50%;
+
+ 
+    float: left;
+}
+
+
+
+
+.rectangulo {
+    width: 90%; /* Ancho del rectángulo en píxeles */
+    height: 40%; /* Altura del rectángulo en píxeles */
+    border: 4px dotted #000000; /* Borde con puntos (azul en este caso) */
+    position: fixed; /* Posición fija para que se superponga al contenido */
+    top: 30%; /* Alinea el rectángulo en la mitad superior de la ventana */
+    left: 50%; /* Alinea el rectángulo en el centro horizontal de la ventana */
+    transform: translate(-50%, -50%); /* Centra el rectángulo */
+    z-index:-1; /* Asegura que el rectángulo esté sobre el contenido de la tabla */
+}
